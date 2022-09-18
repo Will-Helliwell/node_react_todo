@@ -1,4 +1,4 @@
-# node_js_todo_api
+# A Todo App Using Node and React 
 
 A simple backend for a to-do app, used for myself as an introduction to NodeJS and Express framework (see learnings below).
 
