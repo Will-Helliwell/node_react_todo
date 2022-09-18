@@ -13,10 +13,14 @@ API routes:
 - Get a single todo
 - Update a single todo
 
-## To run 
+## To run Locally
 
 - Clone this template
 - Install dependencies: `cd server && npm install`
+- Create Postgres database:
+  - connect to postgres locally: `psql postgres`
+  - Create database and table by running sql commands in ./server/db.js
+  - you can edit the database name as required in db.sql + db.js
 - Start the server locally `npx nodemon index`
 - API calls can now be made using Postman via http://localhost:5000
 
