@@ -4,7 +4,7 @@ const pool = new Pool({
     user: "willhelliwell",
     localhost: "localhost",
     port: 5432,
-    database: "pern_todo"
+    database: "node_react_todo"
 });
 
 module.exports = pool
