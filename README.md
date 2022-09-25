@@ -16,13 +16,21 @@ API routes:
 ## To run Locally
 
 - Clone this template
+
+### Server
 - Install dependencies: `cd server && npm install`
 - Create Postgres database:
   - connect to postgres locally: `psql postgres`
   - Create database and table by running sql commands in ./server/db.js
   - you can edit the database name as required in db.sql + db.js
-- Start the server locally `npx nodemon index`
+- Start the server locally (whilst in server directory): `npx nodemon index`
 - API calls can now be made using Postman via http://localhost:5000
+
+### Client
+
+- Install dependencies: `cd client && npm install`
+- Start react (whilst in client directory): `npm start`
+
 
 ## Learnings
 
@@ -45,4 +53,7 @@ API routes:
 
 
 - sql - returning - available in PostgreSQL and Oracle, can return specified columns of inserted/updated/deleted rows, thus avoiding having to retrive these details using another select statement.
-
+- react:
+  - JSX
+  - Components
+  - Fragements - allow a component to return multiple elements without using a non-functional div
